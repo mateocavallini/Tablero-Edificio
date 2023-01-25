@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablero de Edificio</title>
+    <link rel="stylesheet" href="diseño.css">
+
+</head>
+
+<body>
+    <div class="habitaciones">
+        <input type="text" placeholder="Piso" class="piso" id="piso"></input>
+        <input type="text" placeholder="Depa" class="depa" id="depa"></input>
+    </div>
+    <div class="numeros">
+        <div class="uno-tres">
+            <button onclick="boton(1)" class="uno"> 1 </button>
+            <button onclick="boton(2)" class="dos"> 2 </button>
+            <button onclick="boton(3)" class="tres"> 3 </button>
+        </div>
+        <div class="cuatro-seis">
+            <button onclick="boton(4)" class="cuatro"> 4 </button>
+            <button onclick="boton(5)" class="cinco"> 5 </button>
+            <button onclick="boton(6)" class="seis"> 6 </button>
+        </div>
+        <div class="siete-nueve">
+            <button onclick="boton(7)" class="siete"> 7 </button>
+            <button onclick="boton(8)" class="ocho"> 8 </button>
+            <button onclick="boton(9)" class="nueve"> 9 </button>
+        </div>
+        <div class="cero-borrar">
+            <button onclick="boton(0)" class="cero"> 0 </button>
+        </div>
+        <div class="llamada">
+            <button class="llamar" id="llama"> Llamar </button>
+            <button class="borrar" id="borra"> Borrar </button>
+        </div>
+        <input type="text" class="mensajes" id="mensaje"> </input>
+    </div>
+    <script src="acciones.js"></script>
+</body>
+
+</html>

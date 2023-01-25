@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.borrar,
+.llamar {
+    background-color: rgb(246, 227, 227);
+}
+
+.piso,
+.depa {
+    background-color: antiquewhite;
+    width: 35px;
+    text-align: center;
+}
+
+.uno,
+.dos,
+.tres,
+.cuatro,
+.cinco,
+.seis,
+.siete,
+.ocho,
+.nueve,
+.cero {
+    background-color: beige;
+}
+
+.habitaciones {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.numeros,
+.cuatro-seis,
+.siete-nueve,
+.cero-borrar {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.llamada {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.mensajes {
+    margin-top: 5px;
+    background-color: beige;
+    width: 220px;
+}
